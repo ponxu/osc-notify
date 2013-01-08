@@ -1,0 +1,29 @@
+{
+    "name":"开源中国消息提示",
+    "version":"1.0",
+    "description":"当有留言或者@提到我时, 弹出提示框!",
+    "icons":{
+        "16":"osc.png",
+        "48":"osc.png",
+        "128":"osc.png"
+    },
+    "permissions":[
+        "tabs",
+        "notifications",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "options_page":"options.html",
+    "background":{
+        "scripts":["background.js"]
+    },
+    "browser_action":{
+        "default_icon":"osc.png",
+        "default_title":"开源中国消息提示",
+        "default_popup":"options.html"
+    },
+    "manifest_version":2,
+    "web_accessible_resources":[
+        "osc.png"
+    ]
+}
