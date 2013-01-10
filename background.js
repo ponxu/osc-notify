@@ -49,11 +49,11 @@ function checkAtMe() {
     get(OSC, function (html) {
         var msg = /\d+条新留言/.exec(html) || '';
         var at = /\d+条提到我/.exec(html) || '';
+        var comment = /\d+条新评论/.exec(html) || '';
 
-        if (at || msg) {
-            show(msg + ' ' + at);
-        }
-        else {
+        if (at || msg || comment) {
+            show(msg + ' ' + comment + ' ' + at);
+        } else {
             console.log('nothing....');
         }
     });

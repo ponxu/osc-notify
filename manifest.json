@@ -1,7 +1,7 @@
 {
     "name":"开源中国消息提示",
-    "version":"1.0",
-    "description":"当有留言或者@提到我时, 弹出提示框!",
+    "version":"1.0.1",
+    "description":"当有新留言/新评论/@提到我时, 弹出提示框!",
     "icons":{
         "16":"osc.png",
         "48":"osc.png",
